@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webformyself Каталог яблочной продукции</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="header"> <!-- class="header" -->
+    
+    <div class="wrap"> <!-- class="wrap" -->
+        
+        <div class="logo">
+            <h1>
+                Catalog<span>Apple</span>
+            </h1>
+            <p>Все для вашего <br /> яблочного смартфона</p>
+        </div>
+            
+        <div class="slogan">
+            Добро пожаловать в каталог аксессуаров 
+            <span>для продукци Aplle</span>
+        </div>
+        
+        <form action="" method="post">
+            <ul class="search">
+                <li>
+                    <input type="text" class="search" name="search" />
+                </li>
+                <li>
+                    <input type="submit" class="search-go" name="go-search" value="поиск"  />
+                </li>
+            </ul>
+        </form>
+   
+    </div> <!-- class="/wrap" -->
+    
+</div> <!-- class="/header" -->
+
+
+
+<div class="menu"> <!-- class="menu" -->
+    <ul class="wrap"> <!-- class="wrap" -->
+        <li class="active"><a href="">Главная</a></li>
+        <li><a href="">О нас</a></li>
+        <li><a href="">Скидки</a></li>
+        <li><a href="">Акции</a></li>
+        <li><a href="">Новости</a></li>
+    </ul> <!-- class="/wrap" -->
+</div> <!-- class="/menu" -->
+
+
+<div class="page-wrap"> <!-- class="page-wrap" -->
+    
+    <div class="content"> <!-- class="content" -->
+        
+        <ul class="breadcrumbs">
+            <li><a href="">Главная</a> - </li>
+            <li>Регистрация</li>
+        </ul>
+        
+        <div class="content-page">
+            <table width="730" border="0" cellspacing="2" cellpadding="0" class="regtable">
+              <tr>
+                <td>Введите ваше имя <span style="color:red;">*</span></td>
+                <td><input type="text" name="nameuser" /></td>
+              </tr>
+              <tr>
+                <td>Введите ваш логин <span style="color:red;">*</span></td>
+                <td><input type="text" name="loginuser" /></td>
+              </tr>
+              <tr>
+                <td>Введите ваш email <span style="color:red;">*</span></td>
+                <td><input type="text" name="emailuser" /></td>
+              </tr>
+              <tr>
+                <td>Введите ваш пароль <span style="color:red;">*</span></td>
+                <td><input type="password" name="passworduser" /></td>
+              </tr>
+              <tr>
+                <td>Повторите ваш пароль <span style="color:red;">*</span></td>
+                <td><input type="password" name="checkpassworduser" /></td>
+              </tr>
+              <tr>
+                <td>Немного о себе</td>
+                <td><textarea name="aboutme"></textarea></td>
+              </tr>
+              <tr>
+                <td>Загрузите аватар <span style="color:red; font-size:10px;">Макс. разм. 2 мб.</span></td>
+                <td><input type="file" name="checkpassworduser" /></td>
+              </tr>
+              <tr>
+                <td>
+                    Введите цифры с картинки: <span style="color:red;">*</span><br /> 
+                    <img src="img/сaptcha.jpg" alt="" width="150px" class="regcaptcha" />
+                </td>
+                <td><input type="text" name="checkcaptcha" /></td>
+              </tr>
+              <tr>
+                <td>Поля помеченные <span style="color:red;">*</span> обязательны для заполнения</td>
+                <td><input type="submit" value="Зарегистрироваться" name="goregistr" class="regbtn" /></td>
+              </tr>
+            </table>
+
+        </div>
+
+    </div> <!-- class="content" -->
+    
+    
+    
+    <div class="sidebar-wrap"> <!-- class="sidebar-wrap" -->
+        
+        <div class="block-body"> <!-- class="block-body" -->
+            <div class="block-title">Войти</div>
+            <form action="" method="post">
+                <ul class="auth-user">
+                    <li>
+                        <input type="text" class="login" placeholder="Введите ваш логин" />
+                    </li>
+                    <li>
+                        <input type="password" class="password" placeholder="Введите ваш пароль" />
+                    </li>
+                    <li>
+                        <input class="lisubmit" type="image" src="img/auth-btn.jpg" />
+                    </li>
+                </ul>
+            </form>
+            <a href="">Забыл пароль?</a>
+            <a href="">Зарегистрироваться</a>
+        </div> <!-- class="block-body" -->        
+        
+        <div class="block-body"> <!-- class="block-body" -->
+            <div class="block-title">Каталог</div>
+            <ul class="catalog">
+                <li><a href="">Комплектующие к Apple</a>
+                    <ul>
+                        <li><a href="">Чехлы</a></li>
+                        <li><a href="">Пленки</a></li>
+                        <li><a href="">Наушники</a>
+                            <ul>
+                                <li><a href="">MonsterBeat</a></li>
+                                <li><a href="">Apple</a></li>
+                                <li><a href="">Dr. Dre</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Зарядные</a></li>
+                        <li><a href="">Провода</a></li>
+                        <li><a href="">Стекла</a></li>
+                        <li><a href="">Тряпочки</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Оборудование для ремонта</a></li>
+                <li><a href="">Аксессуары для Apple</a></li>
+                <li><a href="">Документация</a></li> 
+            </ul>
+        </div> <!-- class="block-body" -->
+        
+    </div> <!-- class="sidebar-wrap" -->
+    
+</div> <!-- class="page-wrap" -->
+
+<div class="footer">
+        <div class="menu"> <!-- class="menu" -->
+            <ul class="wrap"> <!-- class="wrap" -->
+                <li class="active"><a href="">Главная</a></li>
+                <li><a href="">О нас</a></li>
+                <li><a href="">Скидки</a></li>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Новости</a></li>
+            </ul> <!-- class="/wrap" -->
+        </div> <!-- class="/menu" -->
+        <center>Какая то информация о авторе, сайте, продукции, поставщиках, счетчики, статистика или что-либо еще!</center>
+</div>
+
+</body>
+</html>
